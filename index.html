@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title Logo File -->
+    <link rel="icon" type="image/png" href="About_Img11.jpeg">
+    <title>Amansha Shaji</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <!-- Font Awesome File -->
+    <script src="https://kit.fontawesome.com/0260b38412.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery File -->
+    <script src="jquery-3.6.3.min.js"></script>
+
+    <!-- Jquery for Projects SEE MORE button -->
+    <script>
+        $(document).ready(function(){
+            $(".moreProjects").click(function (){
+            $(".work-list1").slideDown(1000);
+            $(".work-list2").slideDown(1000);
+            $(".moreProjects").text("End Of Projects");
+              })
+            $(".moreProjects").mousedown(function (){
+            $(".work-list1").slideUp(1000);
+            $(".work-list2").slideUp(1000);
+            $(".moreProjects").text("SEE MORE");
+              })
+         })
+    </script>
+
+</head>
+<body>
+
+    <!-- ------Scroll To Top------ -->
+    <div id="top">
+        <a href="#"><img src="backtotop12.png" alt=""></a>
+    </div>
+
+
+        <!-- ----------Home---------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Aman_Logo3.png" alt="" class="logoRes">
+                <ul id="menubar">
+                    <!-- <li><img src="Aman_Logo3.png" alt="" class="logo"></li> -->
+                    <li ><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hey.. It's Me <br><span>Amansha Shaji</span></h1>
+                <p class="aspiring"  style="font-weight: bolder; font-family: 'Times New Roman';">Aspiring</p>
+                <p><span style="font-size: 40px; font-family: aquire,consolas;">Full - Stack Developer</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="About_Img11.jpeg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="description">About Me</h1>
+                    <br>
+                    <p>Hello! I am a second-year student pursuing a Bachelor's degree in Computer Applications (BCA) with a keen interest in web development. Passionate about creating seamless and interactive web experiences, I am on a journey to explore the depths of front-end and back-end technologies. 
+                        <br><br>
+                        With a strong foundation in programming languages such as HTML, CSS, JavaScript, I am enthusiastic about crafting visually appealing and functional websites. I enjoy experimenting with new design trends, responsive layouts, and incorporating user experience principles to create engaging web applications.
+                        <br><br>
+                        I am eager to connect with fellow web development enthusiasts, professionals, and mentors. Whether it's discussing the latest JavaScript frameworks, sharing project ideas, or collaborating on web initiatives, I am open to engaging conversations and exciting collaborations. Let's connect and explore the vast world of web development together!
+                        </p>
+
+                    <div class="titles">
+                        <p class="title-links link1" onclick="tab1('skills')">Skills</p>
+                        <p class="title-links" onclick="tab1('experience')">Experience</p>
+                        <p class="title-links" onclick="tab1('education')">Education</p>
+                    </div>
+                    <div class="contents cnt1" id="skills">
+                        <div class="card" style="--clr1:#ff1d1d;--clr2:#06ba0c;">
+                            <h2>HTML, CSS & JavaScript<br><br><b>Creating Interactive <br>& Responsive <br>User-Friendly Websites</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card" style="--clr1:#ff1d1d;--clr2:#06ba0c;">
+                            <h2>MySQL<br><br><b>Working with <br>Databases to Ensure <br>the Success of All the Functionalities <br>in the Website</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="card" style="--clr1:#ff1d1d;--clr2:#06ba0c;">
+                            <h2>Full - Stack <br> Developing<br><br><b>Creating a Perfect <br> Website with the <br> Combination of <br> Front-End & Back-End <br> Properties</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents" id="experience">
+                        <div class="card" style="--clr1:rgb(18, 104, 161);--clr2:#baa806;">
+                            <h2>11/2021 - <br><br> 06/2022<br><br><br><b>Customer Service/ <br>Support at Notlob <br>Food Delivery Company</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="card" style="--clr1:rgb(18, 104, 161);--clr2:#baa806;">
+                            <h2>07/2021 - <br><br> 08/2021<br><br><br><b>Assistant Accountant <br>at Al Gillidary <br>Trading Company</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="card" style="--clr1:rgb(18, 104, 161);--clr2:#baa806;">
+                            <h2>06/2019 - <br><br> 04/2021<br><br><br><b>Assistant Accountant <br>at Asian Pearl <br>Trading W.L.L</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents" id="education">
+                        <div class="card" style="--clr1:#ff1d43;--clr2:#73d0ff;">
+                            <h2>2022 - <br><br>Present<br><br><br><b>Bachelor of Computer Application{BCA} <br>at Ganpat University</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="card" style="--clr1:#ff1d43;--clr2:#73d0ff;">
+                            <h2>2018 - <br><br>2019<br><br><br><b>Higher Secondary <br>School [12th] at <br>Indian School <br>Bahrain {ISB}</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="card" style="--clr1:#ff1d43;--clr2:#73d0ff;">
+                            <h2>2016 - <br><br>2017<br><br><br><b>Secondary School <br>[10th] at Indian <br>School Bahrain {ISB}</b></h2>
+                            <div class="clip">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- ----------Services---------- -->
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="description">Services</h1>
+        <div class="serv-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Web Design</h2>
+                <p> It involves planning and organizing the layout, colors, text styles, images, and interactive elements of a website to deliver an engaging user experience.</p>
+                <a href="#1">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Enhancing user satisfaction and usability by improving the visual appeal and ease of use in a product or website.</p>
+                <a href="#1">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Creating websites or web applications that are accessible via the internet with a combination of programming, coding, designing, and structuring the content and layout of a website.</p>
+                <a href="#1">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+        <!-- ----------Projects---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="description">My Work</h1>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="p5.png" alt="">
+                <div class="layer">
+                    <h2>Landing Page</h2><br>
+                    <a href="https://amanslanding.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p4.png" alt="">
+                <div class="layer">
+                    <h2>Simple Calculator</h2><br>
+                    <a href="https://amanscalc.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="p6.png" alt="">
+                <div class="layer">
+                    <h2>Age Calculator</h2><br>
+                    <a href="https://amansagecalc.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-list work-list1" style="display: none;">
+            <div class="work1">
+                <img src="p3.png" alt="">
+                <div class="layer">
+                    <h2>College/University Website</h2><br>
+                    <a href="https://amansuniversity.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work1">
+                <img src="p2.png" alt="">
+                <div class="layer">
+                    <h2>Travel and Tourism Website</h2><br>
+                    <a href="https://amanstravels.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work1">
+                <img src="p1.png" alt="">
+                <div class="layer">
+                    <h2>Login/Registration Form</h2><br>
+                    <a href="https://amansregister.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-list work-list2" style="display: none;">
+            <div class="work2">
+                <img src="p7.png" alt="">
+                <div class="layer">
+                    <h2>Music Player  Website</h2><br>
+                    <a href="https://amansplayer.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="p8.png" alt="">
+                <div class="layer">
+                    <h2>New Year Timer</h2><br>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="p9.png" alt="">
+                <div class="layer">
+                    <h2>Amazon Clone</h2><br>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <button  class="btn moreProjects">SEE MORE</button>
+
+    </div>
+</div>
+
+
+
+
+        <!-- ----------Contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="description">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> aman.shah.26266@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i> +91 9744334927</p>
+                    <div class="badge-base LI-profile-badge linkedIn" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="amansha-shaji-60769a269" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/amansha-shaji-60769a269?trk=profile-badge"></a>
+                    </div>
+                    <a href="Amansha's Resume-1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Amansha. Created with <i class="fa-solid fa-heart"></i> by Amansha</p>
+    </div>
+</div>
+
+
+    <!-- LinkedIn Profile for Contact -->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+    <!-- JavaScript File -->
+    <script src="Portfolio.js"></script>
+
+</body>
+</html>
